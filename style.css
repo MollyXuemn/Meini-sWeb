@@ -1,0 +1,134 @@
+
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(217, 238, 216);
+    font-family: "Heebo", sans-serif;
+    transition: all 0.1s ease;
+  }
+
+  #container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .homebutton {
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 40px solid rgba(31, 43, 224, 0.836);
+    margin-left: 100px;
+    position: fixed;
+    z-index: 100;
+    padding: 20px;
+    color:lightpink;
+    
+}
+  .homebutton a {
+    position:absolute;
+    width: 100px;
+    top: 50px;
+    left: -25px;
+    color:lightpink;
+    font-size: 14px;
+    text-align: justify;
+    word-spacing: 3px;
+    white-space: nowrap; 
+    overflow: hidden; 
+}
+
+  .homebutton a:hover {
+    overflow: visible;
+    text-decoration: line-through;
+    color:palegreen
+  }
+  
+
+  .n {
+    top: 80px;
+    height: 80px;
+    left: 100px;
+    position: absolute;
+    background-color:#E52030;
+    font-family:cursive;
+    font-size: large;
+    flex-direction: row;
+  }
+ 
+
+  .n1 {
+    margin-top: 110px;
+    left: 100px;
+    position: absolute;
+    font-family:cursive;
+    font-size: large;
+    background-color:#57AADB;
+    
+  }
+
+  .n2 {
+    margin-top: 210px;
+    position: absolute;
+    font-family:cursive;
+    font-size: large;
+    background-color:#ffa53e;
+  }
+
+  .n3 {
+    margin-top: 310px;
+    position: absolute;
+    font-family:cursive;
+    font-size: large;
+    background-color:#2ad16a;
+  }
+
+  .n4 {
+    margin-top: 410px;
+    position: absolute;
+    font-family:cursive;
+    font-size: large;
+    background-color:#9C63BC;
+  }
+  
+  .nav {
+    position: fixed;
+    top: 40px;
+    bottom: 210px;
+    right: 70px;
+    z-index: 100;
+    border: none;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li{   
+    margin: 30px;
+    padding-right: 8px;
+  }
+
+  .nav0 {
+    list-style: url("img/redcircle.png");
+  }
+  .nav1 {
+    list-style: url("img/bleucircle.png");
+}
+  .nav2 {
+    list-style: url("img/jaunecircle.png");
+}
+  .nav3 {
+    list-style: url("img/vertcircle.png");
+}   
+  .nav4 {
+    list-style: url("img/violetcircle.png");
+}
+
+

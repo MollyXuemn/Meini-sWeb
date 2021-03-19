@@ -1,0 +1,38 @@
+{
+  "name": "mollyhomeweb",
+  "description": "hello this is molly's website",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "Molly (https://www.youtube.com)",
+  "contributors": [
+    "Molly <504954366@qq.com> (https://github.com/MollyXuemn)"
+  ],
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
+    "dat.gui": "^0.7.7",
+    "gatsby": "^3.0.4",
+    "gatsby-plugin-styled-components": "^4.0.0",
+    "gsap": "^3.5.1",
+    "styled-components": "^5.2.1",
+    "three-orbit-controls": "^82.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "2.0.0-beta.2",
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "^1.3.2",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MollyXuemn/MollyPortfolio.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MollyXuemn/MollyPortfolio/issues"
+  },
+  "homepage": "https://github.com/MollyXuemn/MollyPortfolio#readme"
+}
