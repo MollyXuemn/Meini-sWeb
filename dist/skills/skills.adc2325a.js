@@ -586,4 +586,4 @@ function getTodos() {
 
 },{}]},["2CUUJ","47kuR"], "47kuR", "parcelRequire4d7e")
 
-//# sourceMappingURL=skills.adc2325a.js.map
+

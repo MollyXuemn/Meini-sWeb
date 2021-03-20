@@ -472,4 +472,4 @@ bigText.addEventListener("click", () => {
 
 },{}]},["7jbuD","6hJrP"], "6hJrP", "parcelRequire4d7e")
 
-//# sourceMappingURL=indexhome.57b9df1d.js.map
+
