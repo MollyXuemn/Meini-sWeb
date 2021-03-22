@@ -1,7 +1,7 @@
 import fragment from "./shader/fragment.glsl";
 import vertex from "./shader/vertex.glsl";
 import * as dat from "dat.gui";
-import { TimelineMax } from "gsap";
+// import { TimelineMax } from "gsap";
 let OrbitControls = require("three-orbit-controls")(THREE);
 
 export default class Sketch {
